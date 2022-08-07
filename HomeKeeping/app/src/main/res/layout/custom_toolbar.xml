@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/dark_yellow"
+    android:id="@+id/toolbarCustom"
+    app:popupTheme="@style/TextAppearance.AppCompat">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Housesio"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="20sp">
+
+    </TextView>
+
+
+</android.support.v7.widget.Toolbar>
